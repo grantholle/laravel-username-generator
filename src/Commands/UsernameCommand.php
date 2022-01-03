@@ -6,9 +6,9 @@ use Illuminate\Console\Command;
 
 class UsernameCommand extends Command
 {
-    public $signature = 'laravel-username-generator';
+    public $signature = 'username:make';
 
-    public $description = 'My command';
+    public $description = 'Generate a random username.';
 
     public function handle(): int
     {

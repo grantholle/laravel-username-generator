@@ -19,7 +19,6 @@ class UsernameServiceProvider extends PackageServiceProvider
             ->name('laravel-username-generator')
             ->hasConfigFile()
             ->hasViews()
-            ->hasMigration('create_laravel-username-generator_table')
             ->hasCommand(UsernameCommand::class);
     }
 }
