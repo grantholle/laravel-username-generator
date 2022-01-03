@@ -18,7 +18,6 @@ class UsernameServiceProvider extends PackageServiceProvider
         $package
             ->name('laravel-username-generator')
             ->hasConfigFile()
-            ->hasViews()
             ->hasCommand(UsernameCommand::class);
     }
 }
