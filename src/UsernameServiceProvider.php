@@ -1,10 +1,10 @@
 <?php
 
-namespace GrantHolle\Username;
+namespace GrantHolle\UsernameGenerator;
 
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use GrantHolle\Username\Commands\UsernameCommand;
+use GrantHolle\UsernameGenerator\Commands\UsernameCommand;
 
 class UsernameServiceProvider extends PackageServiceProvider
 {

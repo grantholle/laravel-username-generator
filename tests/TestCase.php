@@ -1,10 +1,10 @@
 <?php
 
-namespace GrantHolle\Username\Tests;
+namespace GrantHolle\UsernameGenerator\Tests;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use GrantHolle\Username\UsernameServiceProvider;
+use GrantHolle\UsernameGenerator\UsernameServiceProvider;
 
 class TestCase extends Orchestra
 {

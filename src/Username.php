@@ -1,6 +1,6 @@
 <?php
 
-namespace GrantHolle\Username;
+namespace GrantHolle\UsernameGenerator;
 
 class Username
 {

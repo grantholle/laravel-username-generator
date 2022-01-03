@@ -34,13 +34,12 @@
     },
     "autoload": {
         "psr-4": {
-            "GrantHolle\\Username\\": "src",
-            "GrantHolle\\Username\\Database\\Factories\\": "database/factories"
+            "GrantHolle\\UsernameGenerator\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "GrantHolle\\Username\\Tests\\": "tests"
+            "GrantHolle\\UsernameGenerator\\Tests\\": "tests"
         }
     },
     "scripts": {

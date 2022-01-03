@@ -1,5 +1,5 @@
 <?php
 
-use GrantHolle\Username\Tests\TestCase;
+use GrantHolle\UsernameGenerator\Tests\TestCase;
 
 uses(TestCase::class)->in(__DIR__);

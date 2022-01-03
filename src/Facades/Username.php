@@ -1,11 +1,11 @@
 <?php
 
-namespace GrantHolle\Username\Facades;
+namespace GrantHolle\UsernameGenerator\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @see \GrantHolle\Username\Username
+ * @see \GrantHolle\UsernameGenerator\Username
  */
 class Username extends Facade
 {
