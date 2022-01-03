@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace GrantHolle\Username\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class UsernameCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'laravel-username-generator';
 
     public $description = 'My command';
 
