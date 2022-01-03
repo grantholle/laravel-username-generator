@@ -58,10 +58,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "GrantHolle\\Username\\UsernameServiceProvider"
+                "GrantHolle\\UsernameGenerator\\UsernameServiceProvider"
             ],
             "aliases": {
-                "Username": "GrantHolle\\Username\\Facades\\Username"
+                "Username": "GrantHolle\\UsernameGenerator\\Facades\\Username"
             }
         }
     },
