@@ -15,6 +15,12 @@ it('can select a random list of nouns', function () {
     }
 });
 
+it('can use static make function', function () {
+    $nouns = Noun::make();
+
+    $this->assertCount(1, $nouns);
+});
+
 it('can select a random list of adjectives', function ($count) {
     $adjectiveObj = new Adjective();
     $adjectives = $adjectiveObj->selectWords($count);

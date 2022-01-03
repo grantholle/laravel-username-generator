@@ -22,4 +22,10 @@ abstract class WordSelector
             range(0, $count - 1)
         );
     }
+
+    public static function make(int $count = 1): array
+    {
+        return (new static)
+            ->selectWords($count);
+    }
 }
