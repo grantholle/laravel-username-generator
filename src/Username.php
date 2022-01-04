@@ -53,7 +53,7 @@ class Username
 
     public static function make(string $casing = null): string
     {
-        return (new static)
+        return (new Username)
             ->withAdjectiveCount(config('username-generator.adjectives'))
             ->withNounCount(config('username-generator.nouns'))
             ->withDigitCount(config('username-generator.digits'))

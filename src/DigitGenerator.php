@@ -25,7 +25,7 @@ class DigitGenerator
 
     public static function make(int $digits = 1): string
     {
-        return (new static)
+        return (new DigitGenerator)
             ->generate($digits);
     }
 }

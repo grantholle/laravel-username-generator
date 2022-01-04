@@ -6,6 +6,10 @@ abstract class WordSelector
 {
     protected array $words = [];
 
+    final public function __construct()
+    {
+    }
+
     public function getWords(): array
     {
         return $this->words;
