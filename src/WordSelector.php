@@ -17,6 +17,10 @@ abstract class WordSelector
 
     public function selectWords(int $count = 1): array
     {
+        if ($count < 1) {
+            return [];
+        }
+
         return array_map(
             function () {
                 $index = rand(0, count($this->words) - 1);
