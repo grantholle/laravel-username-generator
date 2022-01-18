@@ -2,9 +2,8 @@
     "name": "grantholle/laravel-username-generator",
     "description": "Generate a random, kid-safe username.",
     "keywords": [
-        "grantholle",
-        "laravel",
-        "laravel-username-generator"
+        "username",
+        "username generator"
     ],
     "homepage": "https://github.com/grantholle/laravel-username-generator",
     "license": "MIT",
