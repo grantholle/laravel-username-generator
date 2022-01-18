@@ -10,6 +10,10 @@ class DigitGenerator
 
     public function generate(int $digits = 1): string
     {
+        if ($digits < 1) {
+            return '';
+        }
+
         $string = array_reduce(
             range(0, $digits - 1),
             fn (string $carry, $n) => $carry . rand(0, 9),
